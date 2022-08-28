@@ -1,0 +1,49 @@
+.aboutus-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.aboutus-row {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.aboutus-video {
+    width: 30%;
+    float: left;
+    border-radius: 35px;
+}
+
+.aboutus-video video {
+    width: 100%;
+    height: auto;
+
+}
+
+.aboutus-content {
+    float: left;
+   
+    margin-left: 50px;
+}
+
+.aboutus-content h1 {
+    font-size: 80px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: #222;
+}
+
+.aboutus-content h2 {
+    font-size: 40px;
+    color: #000000;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.aboutus-content p {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+h2  :hover{transition: 0.5s;padding-left: 5px;color: solid white;}

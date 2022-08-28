@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: slategray;
+}
+
+.h1 {
+  text-align: center;
+
+}
+
+.header {
+  overflow: hidden;
+  background-color: slategray;
+  padding: 10px 5px 10px 0;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 15px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #dbdbdb3d;
+  color: black;
+  transition: 0.5s;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+
+h1 {
+  font-size: 5vw;
+}
+
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 20%;
+}
+
+.FF {
+  width: 50%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.S {
+  text-align: justify;
+  border-radius: 15px;
+
+
+
+}
+
+.SB input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 10px;
+}
+
+.SB {
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  margin-top: 50px;
+
+}
+
+img {
+  width: 60%;
+  height: auto;
+  border-radius: 20px;
+}
+
+caption {
+  font-size: 25px;
+  color: #ddd;
+  margin-top: 50px;
+  padding: 0 0 15px 0;
+}
+
+td {
+  margin-right: 15px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.Items {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+a{color: black;
+text-decoration: none;}
+
+
